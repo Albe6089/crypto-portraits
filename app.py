@@ -12,7 +12,7 @@ LAST_MEME_GEN = ""
 BUCKET = os.environ.get('BUCKET_NAME')
 SQS_NAME = os.environ.get('SQS_NAME')
 # AWS_REGION = urllib.request.urlopen('http://169.254.169.254/latest/meta-data/placement/region').read().decode()
-AWS_REGION = 'us-east-1'
+AWS_REGION = 'us-west-2'
 
 @app.route("/")
 def home():
